@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(modifier: Modifier = Modifier, viewModel: KantoViewModel) {
     val pokedex by viewModel.pokedexState.collectAsState()
-
+    // test commit
     LazyColumn {
         items(pokedex.pokemonEntries) { pokemonEntries ->
             Text(
