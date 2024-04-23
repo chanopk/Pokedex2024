@@ -21,7 +21,7 @@ import com.chanop.pokedex2024.ui.theme.Pokedex2024Theme
 class MainActivity : ComponentActivity() {
 
     private val viewModel: KantoViewModel by viewModels()
-
+    // TODO something
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
